@@ -208,3 +208,33 @@ html *
     padding-top: 50px;
     color: white;
 }
+
+.contact-link {
+    color: white;
+}
+
+.footer-content ul {
+    list-style: none;
+}
+
+.social-media {
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    font-size: 40px;
+}
+
+.social-media li {
+    padding-right: 20px;
+}
+
+.footer-list {
+    padding: 0px;
+}
+
+.footer-list li {
+    padding-bottom: 5px;
+}
+
+.footer-list a {
+    color: #cecece;
+}
