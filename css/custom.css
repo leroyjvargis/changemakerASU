@@ -30,6 +30,7 @@ html *
 .hero-subtitle {
     color:white;
     font-weight: 500;    
+    padding-top: 50px;
 }
 
 .hero-action {
@@ -237,7 +238,7 @@ html *
 }
 
 .contact-link {
-    color: white;
+    color: #cecece;
 }
 
 .footer-content ul {
