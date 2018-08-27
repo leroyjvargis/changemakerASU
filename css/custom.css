@@ -135,7 +135,7 @@ html *
 .intro-content-img img {
     display: block;
     height: 100%;
-    width: auto;
+    width: 100%;
   }
   
     .overlay {

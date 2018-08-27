@@ -19,33 +19,6 @@
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   </head>
   <body>
-
-    <!-- <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Carousel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    </header> -->
-
     <main role="main">
         <div class="container-fluid header">
             <div class="hero">
@@ -228,18 +201,18 @@
             <div class="container"><br>
                 <span class="section-desc inverted">Upcoming Events</span>
                 <div class="row all-events">
-                    <div class="col-md-4 upcoming-event">
-                        <header><a href="https://asuevents.asu.edu/content/sparkys-day-service-tempe-campus-0">Sparky's Day of Service - Tempe campus</a></header>
+                    <div class="col-md-4 upcoming-event" onclick="openUrl('https://asuevents.asu.edu/content/sparkys-day-service-tempe-campus-0')">
+                        <header><a>Sparky's Day of Service - Tempe campus</a></header>
                         <p class="event-date">Aug 13 2018 - 9:00am</p>
                         <p>Connect with current ASU students to learn how Devils give back. When you participate in Sparky’s Day of Service, you will unite with like-minded Sun Devils to create your footprint at ASU through leadership and service. Through this experience, you will learn how to make an impact, understand how to best use your strengths and get involved at ASU. Together, Sun Devils will volunteer in surrounding communities by connecting to service opportunities where you can...</p>
                     </div>
-                    <div class="col-md-4  upcoming-event" onclick="open('https://asuevents.asu.edu/content/sparkys-day-service-polytechnic-campus-0', '_blank')">
-                        <header><a href="https://asuevents.asu.edu/content/sparkys-day-service-polytechnic-campus-0">Sparky's Day of Service — Polytechnic</a></header>
+                    <div class="col-md-4  upcoming-event" onclick="openUrl('https://asuevents.asu.edu/content/sparkys-day-service-polytechnic-campus-0')">
+                        <header><a>Sparky's Day of Service — Polytechnic</a></header>
                         <p class="event-date">Aug 13 2018 - 9:00am</p>
                         <p>Sun Devils enjoy making an impact in the local and global community through service. Meet some like-minded Polytechnic students while you participate in a service project, and learn about future opportunities to make a difference at ASU. Plan to wear comfortable clothing and closed-toe shoes suitable for physical activity. Connect with current ASU students to learn how Devils give back. When you participate in Sparky’s Day of Service, you will unite with like-minded Sun Devils...</p>
                     </div>
-                    <div class="col-md-4  upcoming-event">
-                            <header><a href="https://asuevents.asu.edu/content/sparkys-day-service-tempe-campus-0">Sparky's Day of Service - Tempe campus</a></header>
+                    <div class="col-md-4  upcoming-event" onclick="openUrl('https://asuevents.asu.edu/content/sparkys-day-service-polytechnic-campus-0')">
+                            <header><a>Sparky's Day of Service - Tempe campus</a></header>
                             <p class="event-date">Aug 13 2018 - 9:00am</p>
                             <p>Connect with current ASU students to learn how Devils give back. When you participate in Sparky’s Day of Service, you will unite with like-minded Sun Devils to create your footprint at ASU through leadership and service. Through this experience, you will learn how to make an impact, understand how to best use your strengths and get involved at ASU. Together, Sun Devils will volunteer in surrounding communities by connecting to service opportunities where you can...</p>
                         </div>
@@ -291,5 +264,10 @@
     <script src="js/jquery-2.1.4.js"></script>
     <script src="js/jquery.mobile.custom.min.js"></script>
     <script src="js/main.js"></script> 
+    <script>
+        function openUrl(url) {
+            window.open(url, "_blank");
+        }
+    </script>
   </body>
 </html>
